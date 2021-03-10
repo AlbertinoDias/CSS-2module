@@ -1,0 +1,133 @@
+/* element css*/
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  text-align: center;
+
+}
+
+h1 {
+  color: #dff3e3;
+  font-family: 'Parisienne', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #d68060;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #f1ae89;
+  font-family: 'Nunito', sans-serif;
+}
+
+hr{
+  border-style: dotted none none ;
+  width: 15%;
+  border-color: #86aba1;
+  border-width: 10px;
+  margin: 100px auto 100px auto;
+}
+
+/* Class css*/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #86aba1;
+}
+
+.BUTTON_KUF {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #D68060;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #D68060 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto 40px auto;
+}
+
+.BUTTON_KUF:hover {
+   border: solid #B34319 1px;
+   background: #D66338;
+   background-image: -webkit-linear-gradient(top, #D66338, #B14B25);
+   background-image: -moz-linear-gradient(top, #D66338, #B14B25);
+   background-image: -ms-linear-gradient(top, #D66338, #B14B25);
+   background-image: -o-linear-gradient(top, #D66338, #B14B25);
+   background-image: -webkit-gradient(to bottom, #D66338, #B14B25);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  color: #dff3e3;
+}
+
+.middle-container {
+  background-color: #dff3e3;
+}
+
+.mountain{
+  position: relative;
+  top: 4px;
+}
+
+.skill-cooking {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-cocktail {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row{
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  position: relative;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #f1ae89;
+  padding-top: 43px;
+  position: relative;
+}
+
+
+
+
+/* ID css*/
